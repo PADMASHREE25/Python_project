@@ -1,5 +1,5 @@
 # Python_project
-In this, I have written the code for calaculator to perform basic operations like addition, subtraction,multiplication and division.By using function for each operation.Whenever the function we called it will perform accordingly. It will also return the result value which can be used further.
+In this, I have written the code for calaculator to perform basic operations like addition, subtraction,multiplication and division.By using function for each operation.Whenever the function is called, it will perform accordingly. It will also return the result value which can be used further.
 The code is as follows,
 
 def add(a, b):
