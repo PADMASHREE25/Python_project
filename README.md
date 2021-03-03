@@ -2,25 +2,19 @@
 In this, I have written the code for calaculator to perform basic operations like addition, subtraction,multiplication and division by using function for each operation.Based on the choice of the user the operations are performed. It will also return the result value which can be used further.
 The code is as follows,
 
-def add(a, b):
-    res = a+b
-    print(res)
-    return res
+class calc:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
+    def add(self):
+        return self.a + self.b
 
-def sub(a, b):
-    diff = a-b
-    print(diff)
-    return diff
+    def diff(self):
+        return self.a - self.b
 
+    def mul(self):
+        return self.a * self.b
 
-def mul(a, b):
-    prod = a*b
-    print(prod)
-    return prod
-
-
-def div(a, b):
-    quot = a/b
-    print(quot)
-    return quot
+    def div(self):
+        return self.a / self.b
